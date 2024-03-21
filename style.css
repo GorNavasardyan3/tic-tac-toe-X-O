@@ -1,0 +1,52 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+body
+{
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: orange;
+}
+h1
+{
+    color: green;
+}
+
+input[type=number] 
+{
+    background: orange;
+    border: .2rem solid green;
+    text-align: center;
+    color:green;
+}
+i
+{
+    font-size: 2rem;
+}
+.board
+{
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.blocks
+{
+    border-radius: 5px;
+    height: 55px;
+    width: 55px;
+    cursor: pointer;
+    margin: .5rem;
+    background: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
